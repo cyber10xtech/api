@@ -129,10 +129,10 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
   console.log('');
   console.log('  ✅  SafeSight Admin API running');
-  console.log(`  🌐  http://localhost:${PORT}`);
-  console.log(`  💚  Health: http://localhost:${PORT}/health`);
-  console.log(`  🔐  Login:  POST http://localhost:${PORT}/api/auth/login`);
-  console.log(`  📊  Dash:   GET  http://localhost:${PORT}/api/dashboard`);
+  console.log(`  🌐  https://webadmin.safesight.ng/`);
+  console.log(`  💚  Health: https://webadmin.safesight.ng/health`);
+  console.log(`  🔐  Login:  POST https://webadmin.safesight.ng/api/auth/login`);
+  console.log(`  📊  Dash:   GET  https://webadmin.safesight.ng/api/dashboard`);
   console.log('');
 });
 
