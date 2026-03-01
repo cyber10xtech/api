@@ -13,7 +13,7 @@ cp .env.example .env
 npm run dev
 ```
 
-Server runs on `http://localhost:3001`
+Server runs on `https://webadmin.safesight.ng/api`
 
 ---
 
